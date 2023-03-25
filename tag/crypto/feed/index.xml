@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>crypto &#8211; A Decentralized World</title>
+	<atom:link href="/tag/crypto/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Building a Peer to Peer world that Unleashes Human Creativity</description>
+	<lastBuildDate>Mon, 26 Jul 2021 06:44:13 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>Decentralized Finance &#8211; Crypto&#8217;s Killer App</title>
+		<link>/2021/06/decentralized-finance-cryptos-killer-app/</link>
+					<comments>/2021/06/decentralized-finance-cryptos-killer-app/#respond</comments>
+		
+		<dc:creator><![CDATA[Tom Decent]]></dc:creator>
+		<pubDate>Fri, 25 Jun 2021 06:26:01 +0000</pubDate>
+				<category><![CDATA[defi]]></category>
+		<category><![CDATA[finance]]></category>
+		<category><![CDATA[crypto]]></category>
+		<category><![CDATA[cryptocurrencies]]></category>
+		<category><![CDATA[decentralized finance]]></category>
+		<category><![CDATA[money]]></category>
+		<guid isPermaLink="false">/?p=214</guid>
+
+					<description><![CDATA[I recently discovered Decentralized Finance (DeFi) and believe it&#8217;s the killer app for cryptocurrencies that will propel them into mainstream use. DeFi is going to disrupt finance as much as the internet disrupted newspapers, and eventually it will change the world. DeFi is financial services devoid of middlemen handling your trades. Instead of fail-able humans, [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I recently discovered Decentralized Finance (DeFi) and believe it&#8217;s the killer app for cryptocurrencies that will propel them into mainstream use. DeFi is going to disrupt finance as much as the internet disrupted newspapers, and eventually it will change the world.</p>
+
+
+
+<p>DeFi is financial services devoid of middlemen handling your trades. Instead of fail-able humans, you use an app that interacts directly with smart contracts on Ethereum, a decentralized worldwide computer that nobody controls.</p>
+
+
+
+<h2>Decentralized Lending and Borrowing</h2>
+
+
+
+<p>The simplest DeFi apps are lending and borrowing platforms such as <a href="https://aave.com/" target="_blank" rel="noreferrer noopener">Aave</a>. On these you can deposit Ethereum based tokens (known as ERC-20 Tokens) and earn interest on them. Instead of your token going into a vault managed by humans, it goes into a smart contract, and you are the only user who can withdraw your money back out.</p>
+
+
+
+<p>Where does this interest come from? Other users can borrow those tokens, and pay interest on them. They don&#8217;t borrow your tokens directly, but instead borrow from a pool of all the tokens everyone has deposited.</p>
+
+
+
+<p>The interest rate for saving and borrowing are calculated automatically based on the ratio of deposits to loans for each coin. If you have tokens in high demand you could earn upwards of 10% interest on them! Current interest rates are 3 &#8211; 5% for stablecoins (Coins worth $1 USD or with little value fluctuation), which is better than any traditional savings account, and you can deposit and withdraw at any time.</p>
+
+
+
+<p>What if the borrower disappears with your money? On these platforms all loans are over-collateralized, for anyone to borrow they must deposit some other tokens of equal or greater value. If their loan ever matches their collateral in value, they are automatically liquidated and their collateral is sold to pay off the loan.</p>
+
+
+
+<p>Why would you use this if you have to deposit more than you borrow? Let&#8217;s say you believe Ethereum is going to go up in value, but need cash now. Instead of selling your Ethereum, you can deposit it, borrow USDC, and use it for your expenses. If Ethereum rises in value, you can sell some to pay off the loan. If it drops below the loan amount, it will be automatically sold to pay off your loan.</p>
+
+
+
+<h2>Decentralized Exchanges</h2>
+
+
+
+<p>Decentralized Exchanges (DEX&#8217;s) are applications which allow you to trade any ERC-20 token for any other. The most well known DEX is <a href="https://uniswap.org/" target="_blank" rel="noreferrer noopener">Uniswap</a>. Uniswap runs 24/7 with no human managers, it&#8217;s all code. How does it do this? With a concept known as liquidity pools.</p>
+
+
+
+<p>Imagine you go to your bank to trade US Dollars for Euros. Your bank has large supplies of both US Dollars and Euros available so they can swap them almost instantly, but they charge you a fee to do so, sometimes as high as 10%! Wouldn&#8217;t it be cool if you didn&#8217;t have to pay this? Wouldn&#8217;t it be even cooler if you were the one collecting the fees? This is one of my favorite parts of DeFi.</p>
+
+
+
+<p>Uniswap isn&#8217;t a bank, it doesn&#8217;t have every token in storage waiting for you to make a trade with it. Instead other users provide those tokens. Lets say you have some USDC and LINK tokens you&#8217;re saving for the long term which are sitting in your wallet doing nothing. You could deposit these into a Uniswap liquidity pool, then when anyone wants to trade their USDC for LINK, or vice versa, you get a cut of the fees! You get to rake in the profits banks have been making for years!</p>
+
+
+
+<h2>Decentralized Stablecoins</h2>
+
+
+
+<p>Stablecoins are another fascinating innovation in DeFi. If you&#8217;d rather not hold Ethereum, Bitcoin or other volatile cryptocurrencies, you can opt to use a token called <a href="https://makerdao.com/en/" target="_blank" rel="noreferrer noopener">DAI</a>. One DAI token is always worth 1 US Dollar, and keeps this value through some very clever algorithms. You can get DAI by either trading for it on a DEX, or creating it out of thin air by depositing ERC-20 tokens as collateral in a MakerDAO vault and minting new DAI. Like Aave if your collateral value drops below your DAI value it is liquidated and used to pay off your DAI loan.</p>
+
+
+
+<p>With DAI you can participate in the DeFi ecosystem without worrying about the crypto market crashing and taking your profits with it.</p>
+
+
+
+<h2>Why is DeFi better than existing finance?</h2>
+
+
+
+<p>Do you know where your money goes when you deposit it in your bank account? When you buy shares do you know where they come from? Do you know how many rent-seeking companies front-run and take a cut of your trades?</p>
+
+
+
+<p>Modern financial systems are extremely opaque, and firms like it this way. Being secretive and having powerful friends is useful in finance. You&#8217;re able to bend the rules and make risky bets, then bribe anyone who&#8217;s allowed to look behind the curtain. As an added bonus, if you make a mistake and lose it all, the government is there to bail you out.</p>
+
+
+
+<p>This is in stark opposition to DeFi. In DeFi everything is transparent, you can see the code of the smart contracts you&#8217;re putting money into and all trades happening between everyone. Platforms cannot block your trades because they don&#8217;t like you or what you&#8217;re doing, and bad traders lose their money instead of being bailed out by their powerful friends with money printers.</p>
+
+
+
+<p>DeFi is finance made open, transparent, permission-less, and fair. DeFi doesn&#8217;t care about your Nationality, Sex, Skin Color or Power. Everyone is on an equal playing field with equal ability to trade, earn income and make a mark on the world.</p>
+
+
+
+<p>Remember what happened with Robinhood and Gamestop in January 2021? When the big players started losing money on bad trades they decided to manipulate the system to their advantage using their power. The firm Robinhood used to purchase shares decided they didn&#8217;t like retail investors buying Gamestop, because their purchases were hurting their hedge funds friends, so they turned off the tap and stopped retail being able to buy, manipulating markets to their advantage. This is blatantly illegal but they realized they can probably get away with it with a few bribes, I mean campaign donations. This kind of market manipulation isn&#8217;t possible in DeFi.</p>
+
+
+
+<h2>The risks of Decentralized Finance</h2>
+
+
+
+<p>DeFi is an unregulated, un-policed market. It&#8217;s like the wild west, both exciting and risky. There are scammers, rug pulls, buggy code and plain stupidity out there. You could lose what you put in. If you pay attention and take your time to understand what you&#8217;re doing you&#8217;ll be able to avoid most of it.</p>
+
+
+
+<p>The biggest risk right now is what&#8217;s known as a rug pull. It&#8217;s where a developer will create a DeFi product, such as a decentralized exchange, yield farming opportunity, or loan system. But buried deep in their code is a backdoor, a way for the developer to steal everyone&#8217;s funds and ride off into the sunset. This has happened dozens of times and will probably happen again and again. You can avoid these by sticking to only the most well known, audited pieces of software. A great place to start is <a href="https://defipulse.com/" target="_blank" rel="noreferrer noopener">DefiPulse</a> which lists the top apps by total value locked, most products at the top of this list will be fairly safe against rug pulls, especially if they&#8217;ve been audited.</p>
+
+
+
+<p>Never put your money into a product less than a month old, no matter how good the returns are is, because some companies will promise the moon in returns only to take your money and run after they&#8217;ve accrued a few million dollars.&nbsp;&nbsp;</p>
+
+
+
+<p>Should you dive in now and start playing with DeFi with all the risks it contains? Maybe, but I definitely wouldn&#8217;t put your life savings in yet, or any money you&#8217;ll need in the next few years.</p>
+
+
+
+<p>The biggest rewards go to the early adopters, but they&#8217;re also exposed to the most risk.&nbsp; The more you learn the more success you&#8217;ll have as you&#8217;ll be able to tell good deals from bad and earn much higher returns than ever before, without the risk of being a day trader.</p>
+
+
+
+<p>Even if you don&#8217;t invest anything it&#8217;s a super fascinating world to explore, especially if you love technology and finance and have an independent streak (which I imagine is true of most readers of this site). There are some brilliant financial tools being developed in this space, what I&#8217;ve described above is barely scratching the surface.</p>
+
+
+
+<p>DeFi may not eat the financial system for another decade, but it will eventually. In the same way the internet crushed newspapers and TV, DeFi will crush traditional finance. When consumers have a plethora of choice, it&#8217;s unlikely they&#8217;ll stick with the legacy financial firms. You can&#8217;t stop permission-less, decentralized, open systems, and this is going to revolutionize the world.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2021/06/decentralized-finance-cryptos-killer-app/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

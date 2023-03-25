@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ust &#8211; A Decentralized World</title>
+	<atom:link href="/tag/ust/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Building a Peer to Peer world that Unleashes Human Creativity</description>
+	<lastBuildDate>Tue, 26 Apr 2022 12:51:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>Why DeFi will win</title>
+		<link>/2022/04/why-defi-will-win/</link>
+					<comments>/2022/04/why-defi-will-win/#respond</comments>
+		
+		<dc:creator><![CDATA[Tom Decent]]></dc:creator>
+		<pubDate>Tue, 26 Apr 2022 12:51:37 +0000</pubDate>
+				<category><![CDATA[defi]]></category>
+		<category><![CDATA[finance]]></category>
+		<category><![CDATA[balancer]]></category>
+		<category><![CDATA[convex]]></category>
+		<category><![CDATA[crv]]></category>
+		<category><![CDATA[curve]]></category>
+		<category><![CDATA[cvx]]></category>
+		<category><![CDATA[decentralized finance]]></category>
+		<category><![CDATA[fei]]></category>
+		<category><![CDATA[frax]]></category>
+		<category><![CDATA[llama airforce union]]></category>
+		<category><![CDATA[tradfi]]></category>
+		<category><![CDATA[traditional finance]]></category>
+		<category><![CDATA[ust]]></category>
+		<category><![CDATA[votium]]></category>
+		<guid isPermaLink="false">/?p=238</guid>
+
+					<description><![CDATA[What if every bank worked together to improve finance for all, instead of competing to extract maximum revenue from every customer? This is happening, today, with Decentralized Finance (DeFi). Its most underrated innovation &#8211; Permissionless Composability &#8211; is causing an explosion of growth which will lead it to completely dominate global finance this decade. Composability [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>What if every bank worked together to improve finance for all, instead of competing to extract maximum revenue from every customer? This is happening, today, with Decentralized Finance (DeFi). Its most underrated innovation &#8211; Permissionless Composability &#8211; is causing an explosion of growth which will lead it to completely dominate global finance this decade.</p>
+
+
+
+<p>Composability allows apps to easily integrate with each other. In traditional finance (TradFi) if firms wish to cooperate, they must hold meetings, negotiate a contract, figure out the API, build the integration, have staff on call to keep the API from breaking or going offline. They must write code to handle errors, latency and unexpected results. Then, after all that work either firm may decide they don&#8217;t want to cooperate any more, or maintain their API, and shut off access, wasting all that time and effort.</p>
+
+
+
+<p>In DeFi these complications disappear. It&#8217;s open source and permissionless, you can look at how any app works and build an integration immediately. If you think you can do a better job you can fork them and build your own version. Uptime and latency is handled by the blockchain so you don&#8217;t need to worry about services going offline or not returning data quickly. Code is immutable so no one can change their API unexpectedly.</p>
+
+
+
+<p>These innovations seem small in isolation, but when combined you can see how this system is a massive improvement over anything we&#8217;ve had before. Instead of fragmented, hostile companies writing the same code over and over, not working with each other, and needing many people to maintain this system, you have immutable, stable, open protocols that cooperate with each other. It&#8217;s no wonder DeFi has already replicated much of TradFi in under 2 years, and is far exceeding their rate of improvement.</p>
+
+
+
+<h2>The Curve Composability Wars</h2>
+
+
+
+<p>What does this look like in reality? An interesting example is the symbiotic relationship between Curve, Convex, and Votium.</p>
+
+
+
+<ul><li><a href="https://curve.fi/" data-type="URL" data-id="https://curve.fi/">Curve</a> is an exchange focused around stablecoins (US Dollars, Euros etc). If you want to trade a LOT of one stablecoin for another it&#8217;s the best place to go because it has the most liquidity. These stablecoins are in pools of 2 &#8211; 4 coins, and when you trade you send the coin you don&#8217;t want to the pool and it sends you the coin you do want.</li><li>Curve has a token CRV. To incentivize people to use Curve, they give bonus CRV to anyone who provides liquidity to certain pools.</li><li>If you have CRV and lock it up you become a Curve governor and get to vote on what pools get those bonus CRV tokens.</li><li>If you have little CRV it&#8217;s hard to influence the protocol, and it&#8217;s unlikely you&#8217;d want to pay the gas cost of locking your CRV tokens for little influence.</li><li><a href="https://www.convexfinance.com/">Convex</a>, a new app made by a different group, solves this problem by allowing you to lock your CRV in their smart contract, and get cvxCRV in return, which is a 1:1 equivalent to CRV but not locked, and gives bonus CVX tokens. Convex wants all the CRV tokens so that they can direct liquidity to pools of their choice.</li><li>Convex is a decentralized app run by CVX token holders, if you hold the CVX token you&#8217;ll be able to vote on where the CRV rewards from Convex go. All the additional CRV Convex earns is also given to CVX token-holders.</li><li>New stablecoin tokens such as <a href="https://frax.finance/">Frax</a>, <a href="https://fei.money/">Fei</a> and <a href="https://www.terra.money/">UST</a> are constantly being created, and these tokens want lots of liquidity so they are useful and other DeFi apps integrate with them.</li><li>Curve is where most people go to trade stablecoins, so these projects want to have large pools of tokens available for people to trade with.</li><li>To incentivize their pools to grow, via people adding liquidity, these stablecoin projects want CRV rewards to be given to pools involving their token.</li><li>They could do this in 3 different ways:<ul><li>Beg Curve governors to allocate them tokens (unlikely to work).</li><li>Buy CRV themselves and direct CRV emissions to their own pools (long term effective, but could be costly).</li><li>Bribe Curve governors to direct CRV emissions to their pool (cheap and effective!)</li></ul></li><li>These stablecoins now want to find Curve governors and bribe them to receive CRV emissions for their pools so they get more liquidity. How do they do this?</li><li>Enter <a href="https://votium.app/">Votium</a> &#8211; an app that works with Convex allowing protocols to give bribes. It does the math, revealing the protocol giving the most profitable bribes, and allows CVX holders to vote for them. This makes it extremely profitable to be a CVX holder, as you not only receive CRV and CVX rewards, but bribe rewards as well!</li><li>What if you don&#8217;t have time to explore the different bribes each week and figure out who you want to support? Enter the <a href="https://llama.airforce/">Llama Airforce Union</a> an app that works with Votium to automatically calculate what apps are giving the best bribes, allocate your votes to them, harvests the rewards, and auto-compound those rewards week after week.</li></ul>
+
+
+
+<p>In this tiny slice of DeFi there are 7+ different apps, made by different companies, working together in a cohesive ecosystem to benefit every participant. All these apps cooperate with each other, are open source, permissionless and immutable, and as an investor you are always in control of your funds. As long as there are no un-forseen bugs, you can invest and be certain none of these protocols will change or break for potentially hundreds of years. Your grandkids could still be receiving commissions and bribes from new protocols launching in 2070.</p>
+
+
+
+<p>None of this existed even 2 years ago. Curve is 18 months old, Convex is 12 months old, Votium is 6 months old and Llama Airforce is 3 months old. The pace of innovation is continuing to accelerate and new alternatives that enhance this system are launched every day.</p>
+
+
+
+<p>Now that curves tokenomics has been proven successful other companies like <a href="https://frax.finance/">Frax</a> and <a href="https://balancer.fi/">Balancer</a> are adding a similar token their products, using the same smart contracts, so that Convex or similar can easily integrate with them too.</p>
+
+
+
+<p>Curve itself is still innovating, and many more innovations will continue to be built on top of it. Some basic ideas:</p>
+
+
+
+<ul><li>A Wise like app where you can send money anywhere in any currency and it automatically uses Curve in the background to convert to your chosen currency at the best rate possible.</li><li>A Forex trading app that allows traders to get 10 &#8211; 100x leverage by borrowing tokens and swapping them on curve for the tokens they want. The liquidity required for borrowing could be provided by users in a curve like model too.</li><li>Smaller banks can provide cheap currency swaps and use curve in the background instead of having to keep large floats of every currency.</li></ul>
+
+
+
+<p>If anyone wants to build these apps they don&#8217;t need to go to curve and ask for permission, they don&#8217;t need to worry about being blocked or have the API break or change on them &#8211; they simply build.</p>
+
+
+
+<h2>Exponential Growth</h2>
+
+
+
+<p>Non-composable systems grow linearly, everyone builds unique solutions to each problem. Composable systems grow exponentially. When companies can build on each other problems only need to be solved once, companies can become building blocks for ever greater companies, and creativity flourishes. When you enter a non-composable space you must start from the beginning, building from scratch with little help from existing players. When you enter a composable space you start from the current state of the art, and can easily innovate from there.</p>
+
+
+
+<p>How long do you think it would have taken traditional companies to build something like the Curve / Convex / Votium / Llama Airforce relationship? It may happen inside one company, but it&#8217;s unlikely it would ever happen across many companies. Why? The risk of things breaking down &#8211; what if TradFi Convex decided it doesn&#8217;t like bribes any more? Or Curve decides to get rid of CRV voting. All apps downstream of them would be screwed. In DeFi &#8211; code is immutable, once a smart contract is deployed it stays there forever, for everyone to build on top of.</p>
+
+
+
+<p>We&#8217;ve never seen anything like this in finance. It&#8217;s a new paradigm and it&#8217;s super exciting to be a part of it. The rate of innovation is only going to accelerate, there are many apps building Curve like tokenomics with voting and bribing, and there are many apps trying to muscle their way into the curve wars, all of which grow the profit and usefulness of the system. This curve war is only a tiny slice of what&#8217;s happening in DeFi right now, there is so much going on that even working full time in this space I can&#8217;t keep up. It&#8217;s become fairly obvious that this is finance 2.0 and it&#8217;s only a matter of time until the rest of the world realizes that too.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/04/why-defi-will-win/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>patchwork &#8211; A Decentralized World</title>
+	<atom:link href="/tag/patchwork/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Building a Peer to Peer world that Unleashes Human Creativity</description>
+	<lastBuildDate>Tue, 07 Apr 2020 06:45:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>A Decentralized Platform for Innovation</title>
+		<link>/2020/03/a-decentralized-platform-for-innovation/</link>
+					<comments>/2020/03/a-decentralized-platform-for-innovation/#respond</comments>
+		
+		<dc:creator><![CDATA[Tom Decent]]></dc:creator>
+		<pubDate>Thu, 19 Mar 2020 03:10:53 +0000</pubDate>
+				<category><![CDATA[scuttlebutt]]></category>
+		<category><![CDATA[application platform]]></category>
+		<category><![CDATA[developers]]></category>
+		<category><![CDATA[manyverse]]></category>
+		<category><![CDATA[patchfox]]></category>
+		<category><![CDATA[patchwork]]></category>
+		<category><![CDATA[ssb-chess]]></category>
+		<guid isPermaLink="false">/?p=28</guid>
+
+					<description><![CDATA[In what is scuttlebutt I discussed why Scuttlebutt can be a better social network than anything else out there. However, it can be so much more. It can be a decentralized platform that any application can be built on top of and immediately become peer-to-peer. Under the hood, Scuttlebutt messages are just JSON data. Here&#8217;s [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p> In <a href="/2020/03/what-is-scuttlebutt/">what is scuttlebutt</a> I discussed why Scuttlebutt can be a better social network than anything else out there. However, it can be so much more. It can be a decentralized platform that any application can be built on top of and immediately become peer-to-peer.</p>
+
+
+
+<p>Under the hood, Scuttlebutt messages are just JSON data. Here&#8217;s what a normal text post looks like (simplified, additional metadata omitted for clarity):</p>
+
+
+
+<pre class="wp-block-code"><code>{
+    author: '@Py8stqMfjhdc4Ln92R4Lg+3jITszP94G3P5BNuH+lWY=.ed25519',
+    content: {
+        type: 'post',
+        channel: 'new-people',
+        text: 'Hello World!'
+    }
+}</code></pre>
+
+
+
+<p>And here&#8217;s what a vote looks like:</p>
+
+
+
+<pre class="wp-block-code"><code>{
+    author: '@Py8stqMfjhdc4Ln92R4Lg+3jITszP94G3P5BNuH+lWY=.ed25519',
+    content: {
+        type: 'vote',
+        vote: {
+            link: '%c7ZAvQXoDP/zXnXgTnkGatP1JSAV29V8G/+Hhk8lSWU=.sha256',
+            value: 1,
+            expression: 'Like'
+        }
+    }
+}</code></pre>
+
+
+
+<p>Notice how the content sections of the post and vote are different? The only thing that is similar is the &#8220;type&#8221;, meaning the content section can be filled with anything you like. Different applications can send their own messages with their own &#8216;type&#8217; and information, and clients that understand that type can display the information in a way that makes sense. </p>
+
+
+
+<p>For example, you could build a chess application which sends content like:</p>
+
+
+
+<pre class="wp-block-code"><code>{
+    author: '@Py8stqMfjhdc4Ln92R4Lg+3jITszP94G3P5BNuH+lWY=.ed25519',
+    content: {
+        type: 'chess_move',
+        game: '%c7ZAvQXoRP/zXnXgTnkGatP1JSAV29V8G/+Hhk8lSWU=.sha256',
+        move: 'Qe4'
+    }
+}</code></pre>
+
+
+
+<p>This data is then sent along the Scuttlebutt network where any of your friends who have a chess client that can read the type &#8220;chess_move&#8221; can see that you&#8217;ve made the move &#8220;Qe4&#8221; which in <a href="https://en.wikipedia.org/wiki/Portable_Game_Notation">Portable Game Notation</a> means you moved a queen to e4. You could even play games of chess with people with other chess applications, as long as they can process this &#8220;chess_move&#8221; type. In fact someone has already built a <a href="https://github.com/happy0/ssb-chess-db">ssb-chess backend</a> that runs on Scuttlebutt and you can <a href="https://github.com/happy0/ssb-chess-mithril">play it today</a>. </p>
+
+
+
+<p>Because everything is open source and you don&#8217;t need permission to join the network, you&#8217;re free to innovate as your heart desires. You can build any kind of application using Scuttlebutt as a network layer, and it&#8217;ll be decentralized and usable by anyone else on the network right out of the box. </p>
+
+
+
+<p>For instance, someone could build an Instagram-like application that connects to Scuttlebutt, and shows all content of type &#8216;image&#8217;. Someone else could build a Twitter-like application that only displays text posts of less than 280 characters. These applications will talk on the same network as Patchwork, Manyverse, Patchfox, etc., and you can interact with friends using different applications seamlessly. </p>
+
+
+
+<p>This means that you are free to choose the social application you use while still being able to connect to your friends on the same network. What if the developers of Patchwork do something you hate, like add sponsored content, rearrange the feed order, or make it neon orange and green for a real 90&#8217;s flair? Instead of being forced to &#8220;deal with it&#8221; like you are with Facebook or Twitter, you can simply download an alternative application like <a href="https://www.manyver.se/">Manyverse</a> or <a href="http://patchfox.org/">Patchfox</a> and continue talking to all your friends with the same content. If you&#8217;re a programmer, you can even fork Patchwork, or create your own client from scratch just the way you like it. The application you use to view the world may constantly change, but the underlying data always remains the same. </p>
+
+
+
+<p>This would allow Scuttlebutt to live on for decades or even centuries. Social clients may evolve and change over time just as they do now. People will build applications which will grow and die on it. But the underlying data remains the same, and you&#8217;ll never need to take your entire social world with you when switching clients again. </p>
+
+
+
+<p>That&#8217;s what I love about the potential of Scuttlebutt. It&#8217;s not just freedom from corporate control, it&#8217;s freedom from anyone telling you what to do and how to interact with your friends. It&#8217;s freedom form the invisible hand nudging you to do things others want you to do, like clicking on ads or using their new live streaming product. </p>
+
+
+
+<p>Remember AOL versus the Internet back in the 90&#8217;s? Initially everyone loved AOL as it was this beautiful walled garden that gave them news and information and games. But then the internet came along with infinite possibilities; a decentralized world where anyone can create and share and build what they like! It provided so much more utility and freedom that everyone flocked to it. That&#8217;s how I see Scuttlebutt today, the free alternative to the social media companies that only seem to be tightening their grip on their user-base, building a bigger wall around their garden every day.  </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/03/a-decentralized-platform-for-innovation/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What is Scuttlebutt?</title>
+		<link>/2020/03/what-is-scuttlebutt/</link>
+					<comments>/2020/03/what-is-scuttlebutt/#respond</comments>
+		
+		<dc:creator><![CDATA[Tom Decent]]></dc:creator>
+		<pubDate>Wed, 18 Mar 2020 04:37:28 +0000</pubDate>
+				<category><![CDATA[scuttlebutt]]></category>
+		<category><![CDATA[patchwork]]></category>
+		<guid isPermaLink="false">/?p=21</guid>
+
+					<description><![CDATA[As mentioned in Why Decentralization, a big focus of this site is the technologies that will make a decentralized world possible. Scuttlebutt is one I&#8217;m most excited about because it has a usable social network, and more applications can be built on it for free, without permission, by anyone.&#160; Scuttlebutt solves multiple problems plaguing the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p> As mentioned in <a href="/2020/03/why-decentralization/">Why Decentralization</a>, a big focus of this site is the technologies that will make a decentralized world possible. <a href="https://scuttlebutt.nz/">Scuttlebutt </a>is one I&#8217;m most excited about because it has a usable social network, and more applications can be built on it for free, without permission, by anyone.&nbsp;</p>
+
+
+
+<p>Scuttlebutt solves multiple problems plaguing the social networking world:</p>
+
+
+
+<ul><li>One company having control over and access to everything people do and say on the network</li><li>AI algorithms sorting your timeline to decide what you should read, taking control away from you</li><li>Ads and the ability for companies to purchase attention, shoving themselves into your personal social timeline</li><li>That people have to have one profile tied to their real self&nbsp;</li></ul>
+
+
+
+<p>Technically Scuttlebutt isn&#8217;t a social network, it&#8217;s a system for building any kind of decentralized application, but explaining it in the context of a social network helps. Later I&#8217;ll be explaining how it has the potential to be so much more than this.</p>
+
+
+
+<h2><strong>Scuttlebutt &#8211; the social network</strong></h2>
+
+
+
+<p>Decentralized, open-source social networks have been tried before, the two most well known are Diaspora and Mastadon. With these services there are still servers that people gather around, so if you want an account you have to find a server and register for it. There is still moderation, there is still federation (you have to register an account, and you can get banned) and there are a few central points of failure (the servers themselves). While these networks are a great first step away from centralized corporate-controlled networks (I like them and will be exploring them in more depth soon), Scuttlebutt is how I believe the social web should function in the future.&nbsp;&nbsp;</p>
+
+
+
+<p>Scuttlebutt&#8217;s fundamental difference is it is fully decentralized. Scuttlebutt is completely peer to peer, meaning there are no central servers that you connect to, and no one manages or controls the network. You don&#8217;t use a website to view Scuttlebutt, instead you download a client to your computer. When you use a client, like <a href="https://github.com/ssbc/patchwork/">Patchwork</a>, it talks directly to your friends over the internet. When you make a post it gets sent to all your friends, so they have a local copy of it. If a friend comes online while you&#8217;re offline, their client will automatically download your post/s from your mutual friends. Messages can spread between people constantly without everyone always needing to be online, just like the real world.&nbsp;</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="576" src="/wp-content/uploads/2020/03/patchwork-screenshot-1024x576.png" alt="Patchwork Screenshot" class="wp-image-23" srcset="/wp-content/uploads/2020/03/patchwork-screenshot-1024x576.png 1024w, /wp-content/uploads/2020/03/patchwork-screenshot-300x169.png 300w, /wp-content/uploads/2020/03/patchwork-screenshot-768x432.png 768w, /wp-content/uploads/2020/03/patchwork-screenshot-1536x864.png 1536w, /wp-content/uploads/2020/03/patchwork-screenshot-1200x675.png 1200w, /wp-content/uploads/2020/03/patchwork-screenshot.png 1919w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Patchwork &#8211; A Scuttlebutt client</figcaption></figure>
+
+
+
+<p>When you download Patchwork and run it on your PC it&#8217;s initially empty, because you don&#8217;t know anyone and don&#8217;t know how to connect to anyone. You&#8217;ll notice you only need to enter a name, picture and description, there is no signup form. Why? Because Scuttlebutt has no central service to register with. You can be anyone you like, and no one can tell you otherwise. Instead of having a registration service Scuttlebutt creates a private key on your computer. This key is used to prove you are who you say you are to your friends, so that no one can impersonate you, and it&#8217;s controlled by you alone.&nbsp;</p>
+
+
+
+<p>To begin you should <a href="https://github.com/ssbc/ssb-server/wiki/Pub-Servers">connect to a &#8220;pub&#8221; with an invite code</a>. A &#8220;pub&#8221; is a super-friend on the Scuttlebutt network who makes friends with everyone. Pubs are just like normal users except that they&#8217;re almost always online, identify as pubs, and will friend you automatically when you redeem an invite code. After you redeem an invite you become friends and can start downloading information about its other friends, their friends, and those people&#8217;s friends (3 degrees of separation). These pub servers are mostly run by Scuttlebutt developers. Connecting to a pub doesn&#8217;t restrict your network in any way, as they are just super-friends, not central servers.&nbsp;</p>
+
+
+
+<p>While connecting to a pub isn&#8217;t required, until you have a few friends it&#8217;s worthwhile friending one. For one, pubs are almost always online, so whenever you come online you get all the latest gossip, instead of having to wait for friends to login. Second, pubs can help you discover more people, as you can communicate with anyone up to 6 degrees of separation away (3 degrees in each direction), and pubs are connected to other pubs, so they connect you to the whole Scuttlebutt universe.</p>
+
+
+
+<p>Once you&#8217;ve downloaded the local gossip from the pub, you&#8217;ll see you now have a social feed in Patchwork. This feed is comprised of everything your friends are up to (of which you have 1 right now, the pub) and everything their friends are up to (2 degrees out). Though your client has information about people 3 degrees out for network redundancy purposes, you don&#8217;t see them in your feed by default. You can see them under the &#8220;extended network&#8221; menu option in Patchwork. So now you are connected to all these random people, what do you do? First I&#8217;d recommend checking out some of the hashtags/topics which you can see on the left, and subscribe to some that you find interesting. Once you&#8217;re subscribed to some topics you&#8217;ll see every post from everyone you know about that includes that hashtag.</p>
+
+
+
+<p>&nbsp;You can then follow others who have similar interests to you and post anything you like to the network. Have fun out there! If you want to follow me my ID is:  <code>@Py8stqMfjhdc4Ln92R4Lg+3jITszP94G3P5BNuH+lWY=.ed25519&nbsp; </code></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/03/what-is-scuttlebutt/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Why Decentralization</title>
+		<link>/2020/03/why-decentralization/</link>
+					<comments>/2020/03/why-decentralization/#respond</comments>
+		
+		<dc:creator><![CDATA[Tom Decent]]></dc:creator>
+		<pubDate>Tue, 17 Mar 2020 02:50:56 +0000</pubDate>
+				<category><![CDATA[vision]]></category>
+		<category><![CDATA[patchwork]]></category>
+		<category><![CDATA[scuttlebutt]]></category>
+		<guid isPermaLink="false">/?p=12</guid>
+
+					<description><![CDATA[For the longest time humanity was decentralized. We had small communities of people who knew each other, maybe they had a king far away, but they didn&#8217;t really have anyone telling them how to live their lives, they were free to do what they want. Along came the era of industrialization and some people discovered [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>For the longest time humanity was decentralized. We had small communities of people who knew each other, maybe they had a king far away, but they didn&#8217;t really have anyone telling them how to live their lives, they were free to do what they want.</p>
+
+
+
+<p>Along came the era of industrialization and some people discovered a thing called &#8220;economies of scale&#8221;. By building companies to control many people at once you could extract more value than anyone else.</p>
+
+
+
+<p>Eventually social media happened and we were all so used to companies ruling our lives that we happily joined a world with all our friends, blissfully unaware of how much power the owner of this world was accruing.</p>
+
+
+
+<p>Along comes the 2010&#8217;s and people start to realize they&#8217;ve been had. The fun happy social place they signed up to is actually ruled by a dictator and he&#8217;s started selling their data, changing the product to grow profits instead of individual happiness, and attempting to addict them every step of the way.</p>
+
+
+
+<p>Eventually it comes to a breaking point and people are fed up. They join a new social network, run by a new smaller company that promises to do better and be better. This company becomes more profit-centric and exploitative over time, and the cycle continues. Alternatively they drop out of social media completely, keeping their lives almost as private as before the internet. </p>
+
+
+
+<p>What if we could have the fun of a globally connected internet, without all the corporate control, exploitation, and addiction that goes along with it?</p>
+
+
+
+<p>What if there was a social client that connected you directly to your friends, without any middlemen, so you can chat, share photos, play games and more, and that experience is yours alone? There are no ads, no addictive intrusions, no timeline sorted to be maximally good for the company.&nbsp;</p>
+
+
+
+<p>Furthermore this social network is curated by you. You only see what you want to see, interact with those you care about, and can be anyone you want to be. Why do we have to link our social profile to our real identity anyway? Why can&#8217;t we be whoever we want to be in our social world?</p>
+
+
+
+<p>What if you weren&#8217;t locked into just one social client, you could choose from hundreds? And they all worked on the same network seamlessly, so you and your friends could use different applications and still be together?</p>
+
+
+
+<p>That&#8217;s the promise of a decentralized world, a beautiful magical place that you can tweak and change to your liking. A place that reflects your unique personality and outlook on life instead of being forced into a box with all the other humans.</p>
+
+
+
+<p>This is the world I&#8217;d like to explore and build, together, over the next decade. Because we can&#8217;t leave the future of the internet (and the world) in the hands of so few.&nbsp;</p>
+
+
+
+<p>This blog isn&#8217;t building a product and there&#8217;s nothing for sale here. It&#8217;s aim is to explore a decentralized world that could (and should!) exist, see the technologies that can make it happen today, and solve the problems that crop up along the way.&nbsp;</p>
+
+
+
+<p>This world I describe has been partially built already! By a project called <a href="https://scuttlebutt.nz/">Scuttlebutt</a>, and the Social Client that runs on it: <a href="https://github.com/ssbc/patchwork">Patchwork</a>. You can start using them today. I&#8217;ll be explaining these in more depth along with other decentralization technologies over the coming months.&nbsp; </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/03/why-decentralization/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

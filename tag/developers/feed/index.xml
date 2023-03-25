@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>developers &#8211; A Decentralized World</title>
+	<atom:link href="/tag/developers/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Building a Peer to Peer world that Unleashes Human Creativity</description>
+	<lastBuildDate>Thu, 19 Mar 2020 03:10:54 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>A Decentralized Platform for Innovation</title>
+		<link>/2020/03/a-decentralized-platform-for-innovation/</link>
+					<comments>/2020/03/a-decentralized-platform-for-innovation/#respond</comments>
+		
+		<dc:creator><![CDATA[Tom Decent]]></dc:creator>
+		<pubDate>Thu, 19 Mar 2020 03:10:53 +0000</pubDate>
+				<category><![CDATA[scuttlebutt]]></category>
+		<category><![CDATA[application platform]]></category>
+		<category><![CDATA[developers]]></category>
+		<category><![CDATA[manyverse]]></category>
+		<category><![CDATA[patchfox]]></category>
+		<category><![CDATA[patchwork]]></category>
+		<category><![CDATA[ssb-chess]]></category>
+		<guid isPermaLink="false">/?p=28</guid>
+
+					<description><![CDATA[In what is scuttlebutt I discussed why Scuttlebutt can be a better social network than anything else out there. However, it can be so much more. It can be a decentralized platform that any application can be built on top of and immediately become peer-to-peer. Under the hood, Scuttlebutt messages are just JSON data. Here&#8217;s [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p> In <a href="/2020/03/what-is-scuttlebutt/">what is scuttlebutt</a> I discussed why Scuttlebutt can be a better social network than anything else out there. However, it can be so much more. It can be a decentralized platform that any application can be built on top of and immediately become peer-to-peer.</p>
+
+
+
+<p>Under the hood, Scuttlebutt messages are just JSON data. Here&#8217;s what a normal text post looks like (simplified, additional metadata omitted for clarity):</p>
+
+
+
+<pre class="wp-block-code"><code>{
+    author: '@Py8stqMfjhdc4Ln92R4Lg+3jITszP94G3P5BNuH+lWY=.ed25519',
+    content: {
+        type: 'post',
+        channel: 'new-people',
+        text: 'Hello World!'
+    }
+}</code></pre>
+
+
+
+<p>And here&#8217;s what a vote looks like:</p>
+
+
+
+<pre class="wp-block-code"><code>{
+    author: '@Py8stqMfjhdc4Ln92R4Lg+3jITszP94G3P5BNuH+lWY=.ed25519',
+    content: {
+        type: 'vote',
+        vote: {
+            link: '%c7ZAvQXoDP/zXnXgTnkGatP1JSAV29V8G/+Hhk8lSWU=.sha256',
+            value: 1,
+            expression: 'Like'
+        }
+    }
+}</code></pre>
+
+
+
+<p>Notice how the content sections of the post and vote are different? The only thing that is similar is the &#8220;type&#8221;, meaning the content section can be filled with anything you like. Different applications can send their own messages with their own &#8216;type&#8217; and information, and clients that understand that type can display the information in a way that makes sense. </p>
+
+
+
+<p>For example, you could build a chess application which sends content like:</p>
+
+
+
+<pre class="wp-block-code"><code>{
+    author: '@Py8stqMfjhdc4Ln92R4Lg+3jITszP94G3P5BNuH+lWY=.ed25519',
+    content: {
+        type: 'chess_move',
+        game: '%c7ZAvQXoRP/zXnXgTnkGatP1JSAV29V8G/+Hhk8lSWU=.sha256',
+        move: 'Qe4'
+    }
+}</code></pre>
+
+
+
+<p>This data is then sent along the Scuttlebutt network where any of your friends who have a chess client that can read the type &#8220;chess_move&#8221; can see that you&#8217;ve made the move &#8220;Qe4&#8221; which in <a href="https://en.wikipedia.org/wiki/Portable_Game_Notation">Portable Game Notation</a> means you moved a queen to e4. You could even play games of chess with people with other chess applications, as long as they can process this &#8220;chess_move&#8221; type. In fact someone has already built a <a href="https://github.com/happy0/ssb-chess-db">ssb-chess backend</a> that runs on Scuttlebutt and you can <a href="https://github.com/happy0/ssb-chess-mithril">play it today</a>. </p>
+
+
+
+<p>Because everything is open source and you don&#8217;t need permission to join the network, you&#8217;re free to innovate as your heart desires. You can build any kind of application using Scuttlebutt as a network layer, and it&#8217;ll be decentralized and usable by anyone else on the network right out of the box. </p>
+
+
+
+<p>For instance, someone could build an Instagram-like application that connects to Scuttlebutt, and shows all content of type &#8216;image&#8217;. Someone else could build a Twitter-like application that only displays text posts of less than 280 characters. These applications will talk on the same network as Patchwork, Manyverse, Patchfox, etc., and you can interact with friends using different applications seamlessly. </p>
+
+
+
+<p>This means that you are free to choose the social application you use while still being able to connect to your friends on the same network. What if the developers of Patchwork do something you hate, like add sponsored content, rearrange the feed order, or make it neon orange and green for a real 90&#8217;s flair? Instead of being forced to &#8220;deal with it&#8221; like you are with Facebook or Twitter, you can simply download an alternative application like <a href="https://www.manyver.se/">Manyverse</a> or <a href="http://patchfox.org/">Patchfox</a> and continue talking to all your friends with the same content. If you&#8217;re a programmer, you can even fork Patchwork, or create your own client from scratch just the way you like it. The application you use to view the world may constantly change, but the underlying data always remains the same. </p>
+
+
+
+<p>This would allow Scuttlebutt to live on for decades or even centuries. Social clients may evolve and change over time just as they do now. People will build applications which will grow and die on it. But the underlying data remains the same, and you&#8217;ll never need to take your entire social world with you when switching clients again. </p>
+
+
+
+<p>That&#8217;s what I love about the potential of Scuttlebutt. It&#8217;s not just freedom from corporate control, it&#8217;s freedom from anyone telling you what to do and how to interact with your friends. It&#8217;s freedom form the invisible hand nudging you to do things others want you to do, like clicking on ads or using their new live streaming product. </p>
+
+
+
+<p>Remember AOL versus the Internet back in the 90&#8217;s? Initially everyone loved AOL as it was this beautiful walled garden that gave them news and information and games. But then the internet came along with infinite possibilities; a decentralized world where anyone can create and share and build what they like! It provided so much more utility and freedom that everyone flocked to it. That&#8217;s how I see Scuttlebutt today, the free alternative to the social media companies that only seem to be tightening their grip on their user-base, building a bigger wall around their garden every day.  </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/03/a-decentralized-platform-for-innovation/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

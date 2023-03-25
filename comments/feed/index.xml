@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments for A Decentralized World	</title>
+	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Building a Peer to Peer world that Unleashes Human Creativity</description>
+	<lastBuildDate>Tue, 17 Aug 2021 02:02:33 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		Comment on A Trust and Moderation System for the Decentralized Web by tony		</title>
+		<link>/2020/06/a-trust-and-moderation-system-for-the-decentralized-web/#comment-374</link>
+
+		<dc:creator><![CDATA[tony]]></dc:creator>
+		<pubDate>Tue, 19 Jan 2021 08:28:21 +0000</pubDate>
+		<guid isPermaLink="false">/?p=110#comment-374</guid>
+
+					<description><![CDATA[When talking bigtech with friends my biggest complaint is &#039;why can&#039;t I control the algorithms... give me 3 sliders with appropriate choice levels and i&#039;ll do it meself&#039;..
+
+You&#039;re clearly way above my tech grade, however i recognise a good idea.
+
+You&#039;ve got the 3slide thing going..
+please make a general versatile 3slider algo app thingy thats appliable to different choices plugins?? or everhow it can be .. I know I want it
+I&#039;m only here cuz i&#039;m thinking of using scuttlebut and researching a bit.. didn&#039;t expect to see an article so mirroring my wishes.. the trust implementation is major issues. I suspect you&#039;re on to it and it&#039;s in the soup somewhere, look forward to it.]]></description>
+			<content:encoded><![CDATA[<p>When talking bigtech with friends my biggest complaint is &#8216;why can&#8217;t I control the algorithms&#8230; give me 3 sliders with appropriate choice levels and i&#8217;ll do it meself&#8217;..</p>
+<p>You&#8217;re clearly way above my tech grade, however i recognise a good idea.</p>
+<p>You&#8217;ve got the 3slide thing going..<br />
+please make a general versatile 3slider algo app thingy thats appliable to different choices plugins?? or everhow it can be .. I know I want it<br />
+I&#8217;m only here cuz i&#8217;m thinking of using scuttlebut and researching a bit.. didn&#8217;t expect to see an article so mirroring my wishes.. the trust implementation is major issues. I suspect you&#8217;re on to it and it&#8217;s in the soup somewhere, look forward to it.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on A Trust and Moderation System for the Decentralized Web by Fred		</title>
+		<link>/2020/06/a-trust-and-moderation-system-for-the-decentralized-web/#comment-88</link>
+
+		<dc:creator><![CDATA[Fred]]></dc:creator>
+		<pubDate>Thu, 03 Sep 2020 18:13:22 +0000</pubDate>
+		<guid isPermaLink="false">/?p=110#comment-88</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2020/06/a-trust-and-moderation-system-for-the-decentralized-web/#comment-87&quot;&gt;Fred&lt;/a&gt;.
+
+it could be done by adding ssb post with a &quot;%note&quot; for each friendship/following relation containing &quot;UID&quot; relation pair. Or in a shared ipfs folder only friends pair can access.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2020/06/a-trust-and-moderation-system-for-the-decentralized-web/#comment-87">Fred</a>.</p>
+<p>it could be done by adding ssb post with a &#8220;%note&#8221; for each friendship/following relation containing &#8220;UID&#8221; relation pair. Or in a shared ipfs folder only friends pair can access.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on A Trust and Moderation System for the Decentralized Web by Fred		</title>
+		<link>/2020/06/a-trust-and-moderation-system-for-the-decentralized-web/#comment-87</link>
+
+		<dc:creator><![CDATA[Fred]]></dc:creator>
+		<pubDate>Thu, 03 Sep 2020 18:09:40 +0000</pubDate>
+		<guid isPermaLink="false">/?p=110#comment-87</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2020/06/a-trust-and-moderation-system-for-the-decentralized-web/#comment-40&quot;&gt;A R&lt;/a&gt;.
+
+Yeah!! This idea is great... I&#039;d like to test it in real condition by using a mix of scuttlebut &#038; ipfs
+
+https://git.p2p.legal/axiom-team/astroport/ could try to emulate that...]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2020/06/a-trust-and-moderation-system-for-the-decentralized-web/#comment-40">A R</a>.</p>
+<p>Yeah!! This idea is great&#8230; I&#8217;d like to test it in real condition by using a mix of scuttlebut &amp; ipfs</p>
+<p><a href="https://git.p2p.legal/axiom-team/astroport/" rel="nofollow ugc">https://git.p2p.legal/axiom-team/astroport/</a> could try to emulate that&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on A Trust and Moderation System for the Decentralized Web by A R		</title>
+		<link>/2020/06/a-trust-and-moderation-system-for-the-decentralized-web/#comment-40</link>
+
+		<dc:creator><![CDATA[A R]]></dc:creator>
+		<pubDate>Sun, 28 Jun 2020 09:28:11 +0000</pubDate>
+		<guid isPermaLink="false">/?p=110#comment-40</guid>
+
+					<description><![CDATA[I have been thinking for quite a while that this method of &#039;following&#039; other moderators is the best solution to the trust problems in federated or decentralized systems.  Decoupling this from your traditional &#039;moderation&#039; means the opportunity for a truly free expression, and yet still a quality experience.  One point that I belive is very important is feedback.  If you are &#039;added to someone&#039;s mod list&#039; you shpuld be notified, and have the opportunity to respond to that event, such that on the moderator&#039;s profile there is a record of moderation evens AND a listing of responses from those being moderated by that user, in order to show the history of moderation and help a user decide whether to subscribe to this moderator.
+
+The next step would be creation of &#039;moderation coallitions&#039; which have a voting system within them and act as a single moderator who can be followed, in essence giving benefits of both community moderation and voluntary mod subscription.
+
+Id love to talk more abt this!]]></description>
+			<content:encoded><![CDATA[<p>I have been thinking for quite a while that this method of &#8216;following&#8217; other moderators is the best solution to the trust problems in federated or decentralized systems.  Decoupling this from your traditional &#8216;moderation&#8217; means the opportunity for a truly free expression, and yet still a quality experience.  One point that I belive is very important is feedback.  If you are &#8216;added to someone&#8217;s mod list&#8217; you shpuld be notified, and have the opportunity to respond to that event, such that on the moderator&#8217;s profile there is a record of moderation evens AND a listing of responses from those being moderated by that user, in order to show the history of moderation and help a user decide whether to subscribe to this moderator.</p>
+<p>The next step would be creation of &#8216;moderation coallitions&#8217; which have a voting system within them and act as a single moderator who can be followed, in essence giving benefits of both community moderation and voluntary mod subscription.</p>
+<p>Id love to talk more abt this!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on A Trust and Moderation System for the Decentralized Web by Nathan		</title>
+		<link>/2020/06/a-trust-and-moderation-system-for-the-decentralized-web/#comment-34</link>
+
+		<dc:creator><![CDATA[Nathan]]></dc:creator>
+		<pubDate>Wed, 24 Jun 2020 02:22:50 +0000</pubDate>
+		<guid isPermaLink="false">/?p=110#comment-34</guid>
+
+					<description><![CDATA[Some of the applications on Freenet use a similar system; eg Sone (a twitter-like app)]]></description>
+			<content:encoded><![CDATA[<p>Some of the applications on Freenet use a similar system; eg Sone (a twitter-like app)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on StudyTime &#8211; A Decentralized MOOC Platform by Fred		</title>
+		<link>/2020/03/studytime-a-decentralized-mooc-platform/#comment-26</link>
+
+		<dc:creator><![CDATA[Fred]]></dc:creator>
+		<pubDate>Thu, 18 Jun 2020 00:36:18 +0000</pubDate>
+		<guid isPermaLink="false">/?p=51#comment-26</guid>
+
+					<description><![CDATA[ipfs / ipns mutable content along with &quot;wallets&quot; is a way we experiment.]]></description>
+			<content:encoded><![CDATA[<p>ipfs / ipns mutable content along with &#8220;wallets&#8221; is a way we experiment.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

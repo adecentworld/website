@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>class central &#8211; A Decentralized World</title>
+	<atom:link href="/tag/class-central/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Building a Peer to Peer world that Unleashes Human Creativity</description>
+	<lastBuildDate>Mon, 23 Mar 2020 04:16:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>StudyTime &#8211; A Decentralized MOOC Platform</title>
+		<link>/2020/03/studytime-a-decentralized-mooc-platform/</link>
+					<comments>/2020/03/studytime-a-decentralized-mooc-platform/#comments</comments>
+		
+		<dc:creator><![CDATA[Tom Decent]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2020 04:16:55 +0000</pubDate>
+				<category><![CDATA[scuttlebutt]]></category>
+		<category><![CDATA[class central]]></category>
+		<category><![CDATA[coursera]]></category>
+		<category><![CDATA[ssb]]></category>
+		<category><![CDATA[study time]]></category>
+		<category><![CDATA[studytime]]></category>
+		<guid isPermaLink="false">/?p=51</guid>
+
+					<description><![CDATA[In 2016, Coursera, one of the leading providers of massive open online courses (MOOC), decided to remove several less popular courses from their site because they weren&#8217;t profitable enough to maintain. One of my core beliefs is education should be open and free; anyone that has the passion to learn should be able to regardless of [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>In 2016, <a href="https://www.coursera.org/">Coursera</a>, one of the leading providers of massive open online courses (MOOC), <a href="https://www.classcentral.com/report/coursera-old-platform-shutdown-download-courses/">decided to remove several less popular courses from their site</a> because they weren&#8217;t profitable enough to maintain. One of my core beliefs is education should be open and free; anyone that has the passion to learn should be able to regardless of their income, background or location. Unfortunately, when education meets capitalism, those with capital decide what courses live and die while those with a passion for learning miss out.</p>
+
+
+
+<p>When Coursera announced they were taking these courses offline I started looking around for a MOOC platform that would host them instead. While many of these courses found their way onto <a href="http://academictorrents.com/">academictorrents.com</a>, and other less legitimate places, these are zips of individual PDF&#8217;s and videos, not all-encompassing experiences like Coursera&#8217;s classes. </p>
+
+
+
+<p>Instead of a centralized service that can increase prices or delete courses at any time, what if we built a decentralized app that anyone can use to explore license-free MOOC&#8217;s? They&#8217;d never have to worry about a course being taken down or censored, because it can be streamed from anyone else on the network. </p>
+
+
+
+<p>Let&#8217;s explore the design of a hypothetical application &#8211; StudyTime &#8211; to illustrate this idea. This is a design document for an application that doesn&#8217;t yet exist, but is possible to build. </p>
+
+
+
+<h2><strong>StudyTime Design Document</strong></h2>
+
+
+
+<p>StudyTime is an application for viewing and interacting with MOOC&#8217;s that runs on Secure Scuttlebutt (SSB). It works by streaming all metadata for courses from the SSB network via SSB Feeds. All non-text content is loaded via SSB blobs, though it can also be made available on other distributed systems such as Sia or Torrents. Because all data is stored locally and mirrored to other clients, the network is self-sustaining as long as it has users. </p>
+
+
+
+<p>The application creates its own private SSB key and feed upon first load. Anything that needs to be persisted, such as enrolled courses, course progress, personal notes, friends, etc., is stored in this feed. More interaction between students, such as forums or comparing results between a class, could be added over time using the same back-end and user feeds. Implementing these features would require a lot of thought around moderation and handling spam or trolls and, as such, is out of scope for this design. </p>
+
+
+
+<h3><strong>User Interface</strong></h3>
+
+
+
+<p>Upon opening StudyTime you are presented with a list of possible subjects to choose from, grouped into major categories with the most popular subjects given higher priority. This could look similar to the homepage for <a href="https://www.classcentral.com/">Class Central</a>:</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="533" src="/wp-content/uploads/2020/03/studytime-select-subject-1024x533.png" alt="" class="wp-image-55" srcset="/wp-content/uploads/2020/03/studytime-select-subject-1024x533.png 1024w, /wp-content/uploads/2020/03/studytime-select-subject-300x156.png 300w, /wp-content/uploads/2020/03/studytime-select-subject-768x400.png 768w, /wp-content/uploads/2020/03/studytime-select-subject-1200x625.png 1200w, /wp-content/uploads/2020/03/studytime-select-subject.png 1289w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Screenshot from Class Central Homepage &#8211; select subject section. </figcaption></figure>
+
+
+
+<p>After selecting a category you&#8217;re taken to a search page where you can explore all courses tagged with this category. All searching and filtering is done client side. </p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="652" src="/wp-content/uploads/2020/03/studytime-select-course-1024x652.png" alt="" class="wp-image-56" srcset="/wp-content/uploads/2020/03/studytime-select-course-1024x652.png 1024w, /wp-content/uploads/2020/03/studytime-select-course-300x191.png 300w, /wp-content/uploads/2020/03/studytime-select-course-768x489.png 768w, /wp-content/uploads/2020/03/studytime-select-course-1200x764.png 1200w, /wp-content/uploads/2020/03/studytime-select-course.png 1277w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Screenshot from Class Central &#8211; Select Course page</figcaption></figure>
+
+
+
+<p>When selecting a course, you&#8217;re taken to a course overview page that consists of the course description, estimated duration, a button to start that course, etc.. <br></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="638" src="/wp-content/uploads/2020/03/studytime-machine-learning-course-1024x638.png" alt="" class="wp-image-57" srcset="/wp-content/uploads/2020/03/studytime-machine-learning-course-1024x638.png 1024w, /wp-content/uploads/2020/03/studytime-machine-learning-course-300x187.png 300w, /wp-content/uploads/2020/03/studytime-machine-learning-course-768x478.png 768w, /wp-content/uploads/2020/03/studytime-machine-learning-course-1200x747.png 1200w, /wp-content/uploads/2020/03/studytime-machine-learning-course.png 1230w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Screenshot from Class Central &#8211; Course Overview page</figcaption></figure>
+
+
+
+<p>Most of this front-end design can be based off existing MOOC sites. It&#8217;s the back-end of this application that is really interesting. </p>
+
+
+
+<h3><strong>Back-end Implementation</strong></h3>
+
+
+
+<p>First, there is one or more course list feeds. Each course in the feed has the type <code>studytime_course</code>. Each course item includes a name, description, keywords, and feed ID. One course list feed ID is hard-coded into the application and is downloaded or updated upon opening the application. Because the course list feed is the primary data source and only one person can add items to the feed, having a hard coded feed creates centralization. The application should not be centralized in any way, so to fix this users will be able to change the course list feed to one created by someone else. Users can load multiple course list feeds (perhaps MOOC providers could release their own StudyTime feeds), and the application will load the courses listed in each. If a course exists in multiple feeds it will be de-duplicated by feed_id and the metadata for the first version found will be displayed in the app. </p>
+
+
+
+<p>Here&#8217;s what an item in a course list feed looks like:</p>
+
+
+
+<pre class="wp-block-code"><code>{
+    author: '@masterfeed.ed25519',
+    content: {
+        type: 'studytime_course',
+        name: 'Python Essentials',
+        image: '%c7ZAvQRoEP/zXnXgTnkGafP1JSEV29V8G/+Hhk8lSWU=.sha256', 
+        description: '',
+        keywords: &#91;'python', 'beginners programming', 'computer science'],
+        feed_id: 'Pyth0NEsential5.ed25519' // Scuttlebutt feed containing the course's lessons, videos, etc
+    }
+}</code></pre>
+
+
+
+<p>While the user is browsing, StudyTime downloads the course feeds in the background, so there is little delay when opening a course. The courses will be grouped into categories client-side. Users can search, sort, and filter client-side using the name, description and keywords. </p>
+
+
+
+<p>Each course has its own feed, where the author_id is the feed_id in the master feed. Each course feed contains the course content; the lessons and tests it contains, as well as hashes of all the images and videos in the course. When you view an image or video, StudyTime will request it from the SSB network then stream it from other peers who have a local copy. After an image or video is downloaded, the client will automatically share it with other peers to keep the network highly available. Here&#8217;s what a course feed looks like:</p>
+
+
+
+<pre class="wp-block-code"><code>&#91;{
+    author: '@Pyth0NEsential5.ed25519',
+    content: {
+        type: 'studytime_course_lesson',
+        lesson_number: 1,
+        name: 'Week 1 - How to install python',
+        description: 'This lesson will teach you how to setup Python on your PC',
+        lesson_content: 'In this lesson we will learn about installing python...'
+    }
+},
+{
+    author: '@Pyth0NEsential5.ed25519',
+    content: {
+        type: 'studytime_course_lesson_video,
+        lesson_number: 1
+        name: 'Week 1 Video 1',
+        description: 'How to install Python',
+        sources: &#91;
+            '%c7ZAvQXoRP/zXnXgTnkGatP1JSAV29V8G/+Hhk8lSWU=.sha256',
+            'https://siasky.net/AABAC_3Dt0FJsxqsu_J4TodEETCGvtFf1Uys_3EgzO0Tcg',
+            'magnet:?xt=urn:btih:a3dced3979cc1a30cc7f648673ced688ce78ce77&amp;dn=studytime-python-essentials'
+        ]
+    }
+},
+{
+    author: '@Pyth0NEsential5.ed25519',
+    content: {
+        type: 'studytime_course_lesson',
+        lesson_number: 2,
+        name: 'Week 2 - Hello World',
+        description: 'This lesson will teach you the basics of python programming',
+        lesson_content: 'First lets run ipython with the following command:\n`ipython`...'
+    }
+}]</code></pre>
+
+
+
+<p>The front-end uses these feeds to render the course contents and lesson pages, downloading required non-text content as users progress. It pre-fetches all course content in the background after starting a course, so users don&#8217;t have to pause at the beginning of each lesson. While browsing through courses, users can navigate quickly as the application is only rendering local data from the feeds.</p>
+
+
+
+<h3><strong>Updating and Improving Courses</strong></h3>
+
+
+
+<p>Over time courses may become out-of-date and need to be improved, edited or deprecated. SSB feeds are immutable append-only feeds, so the only way to make changes is via adding messages. A message type <code>studytime_course_update</code> is used to make these updates. Here&#8217;s an example of how the Python Essentials course above can be updated:</p>
+
+
+
+<pre class="wp-block-code"><code>{
+    author: '@masterfeed.ed25519',
+    content: {
+        type: 'studytime_course_update',
+        feed_id: 'Pyth0NEsential5.ed25519'
+        name: 'Python 2.7 Essentials',
+        keywords: &#91;],
+        deprecated: true,
+    }
+}</code></pre>
+
+
+
+<p>This update renames the course to Python 2.7 Essentials, and sets a deprecated flag. StudyTime hides all deprecated courses by default, but could have a &#8220;Show Deprecated&#8221; option for users that want to see them.</p>
+
+
+
+<p>Similarly, course lessons can be updated with a <code>studytime_course_lesson_update</code> message, which contains a new name, description or lesson_content. The lessons will use the latest content when rendering. </p>
+
+
+
+<h3><strong>Why build this on Scuttlebutt?</strong></h3>
+
+
+
+<p>Scuttlebutt has a few advantages over building a traditional application with servers:</p>
+
+
+
+<ul><li>The creator doesn&#8217;t need to raise money or take down &#8220;unprofitable&#8221; content to keep the application running, because the community runs it with their collective computing and networking power. </li><li>Provided there are enough users, the application should never go offline, as users are constantly sharing feed data with each other.  Because the content is being mirrored so many times, you will always be able to find a feed. Exceptions include images and video, which are harder to keep constantly mirrored, as they are only downloaded by the people that take a course. As a remedy, these images and videos could be mirrored to a service such as Sia or even S3 as a fallback. </li><li>Content cannot be censored or deleted by authorities.</li></ul>
+
+
+
+<p>These rules apply to any decentralized application built on Scuttlebutt. I am particularly excited about the first, because there are so many free websites I&#8217;ve loved that have closed down over the years simply due to lack of money. If the community supported them with bandwidth and computing power instead, they would last as long as they still have fans. </p>
+
+
+
+<h3><strong>What are the drawbacks of using Scuttlebutt?</strong></h3>
+
+
+
+<p>The downsides to using Scuttlebutt rather than centralized servers are mostly constrained to the initial release of the application:</p>
+
+
+
+<ul><li>If there are very few users online it may take a while to find and stream lesson content.</li><li>The developers of StudyTime may need to mirror most of the content until at least a few people have taken every course and are actively seeding the content. </li><li>SSB feeds cannot be changed, so there is no way to remove content once it&#8217;s been added. While it can be marked as deprecated/deleted so the application can hide it client-side, users will always have the information. </li></ul>
+
+
+
+<p>I hope someone either takes this idea and runs with it or becomes inspired by the potential this network brings. There are so many similar problems in many industries that could be saved with a decentralized back-end like Scuttlebutt. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/03/studytime-a-decentralized-mooc-platform/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

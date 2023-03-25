@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>vision &#8211; A Decentralized World</title>
+	<atom:link href="/tag/vision/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Building a Peer to Peer world that Unleashes Human Creativity</description>
+	<lastBuildDate>Wed, 18 Mar 2020 04:40:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>Why Decentralization</title>
+		<link>/2020/03/why-decentralization/</link>
+					<comments>/2020/03/why-decentralization/#respond</comments>
+		
+		<dc:creator><![CDATA[Tom Decent]]></dc:creator>
+		<pubDate>Tue, 17 Mar 2020 02:50:56 +0000</pubDate>
+				<category><![CDATA[vision]]></category>
+		<category><![CDATA[patchwork]]></category>
+		<category><![CDATA[scuttlebutt]]></category>
+		<guid isPermaLink="false">/?p=12</guid>
+
+					<description><![CDATA[For the longest time humanity was decentralized. We had small communities of people who knew each other, maybe they had a king far away, but they didn&#8217;t really have anyone telling them how to live their lives, they were free to do what they want. Along came the era of industrialization and some people discovered [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>For the longest time humanity was decentralized. We had small communities of people who knew each other, maybe they had a king far away, but they didn&#8217;t really have anyone telling them how to live their lives, they were free to do what they want.</p>
+
+
+
+<p>Along came the era of industrialization and some people discovered a thing called &#8220;economies of scale&#8221;. By building companies to control many people at once you could extract more value than anyone else.</p>
+
+
+
+<p>Eventually social media happened and we were all so used to companies ruling our lives that we happily joined a world with all our friends, blissfully unaware of how much power the owner of this world was accruing.</p>
+
+
+
+<p>Along comes the 2010&#8217;s and people start to realize they&#8217;ve been had. The fun happy social place they signed up to is actually ruled by a dictator and he&#8217;s started selling their data, changing the product to grow profits instead of individual happiness, and attempting to addict them every step of the way.</p>
+
+
+
+<p>Eventually it comes to a breaking point and people are fed up. They join a new social network, run by a new smaller company that promises to do better and be better. This company becomes more profit-centric and exploitative over time, and the cycle continues. Alternatively they drop out of social media completely, keeping their lives almost as private as before the internet. </p>
+
+
+
+<p>What if we could have the fun of a globally connected internet, without all the corporate control, exploitation, and addiction that goes along with it?</p>
+
+
+
+<p>What if there was a social client that connected you directly to your friends, without any middlemen, so you can chat, share photos, play games and more, and that experience is yours alone? There are no ads, no addictive intrusions, no timeline sorted to be maximally good for the company.&nbsp;</p>
+
+
+
+<p>Furthermore this social network is curated by you. You only see what you want to see, interact with those you care about, and can be anyone you want to be. Why do we have to link our social profile to our real identity anyway? Why can&#8217;t we be whoever we want to be in our social world?</p>
+
+
+
+<p>What if you weren&#8217;t locked into just one social client, you could choose from hundreds? And they all worked on the same network seamlessly, so you and your friends could use different applications and still be together?</p>
+
+
+
+<p>That&#8217;s the promise of a decentralized world, a beautiful magical place that you can tweak and change to your liking. A place that reflects your unique personality and outlook on life instead of being forced into a box with all the other humans.</p>
+
+
+
+<p>This is the world I&#8217;d like to explore and build, together, over the next decade. Because we can&#8217;t leave the future of the internet (and the world) in the hands of so few.&nbsp;</p>
+
+
+
+<p>This blog isn&#8217;t building a product and there&#8217;s nothing for sale here. It&#8217;s aim is to explore a decentralized world that could (and should!) exist, see the technologies that can make it happen today, and solve the problems that crop up along the way.&nbsp;</p>
+
+
+
+<p>This world I describe has been partially built already! By a project called <a href="https://scuttlebutt.nz/">Scuttlebutt</a>, and the Social Client that runs on it: <a href="https://github.com/ssbc/patchwork">Patchwork</a>. You can start using them today. I&#8217;ll be explaining these in more depth along with other decentralization technologies over the coming months.&nbsp; </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/03/why-decentralization/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>mastodon &#8211; A Decentralized World</title>
+	<atom:link href="/tag/mastodon/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Building a Peer to Peer world that Unleashes Human Creativity</description>
+	<lastBuildDate>Sun, 02 Aug 2020 05:59:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>Social Media is restricting our creative freedom</title>
+		<link>/2020/08/social-media-is-restricting-our-creative-freedom/</link>
+					<comments>/2020/08/social-media-is-restricting-our-creative-freedom/#respond</comments>
+		
+		<dc:creator><![CDATA[Tom Decent]]></dc:creator>
+		<pubDate>Sun, 02 Aug 2020 05:59:44 +0000</pubDate>
+				<category><![CDATA[social media]]></category>
+		<category><![CDATA[activity pub]]></category>
+		<category><![CDATA[decentralization]]></category>
+		<category><![CDATA[mastodon]]></category>
+		<category><![CDATA[scuttlebutt]]></category>
+		<guid isPermaLink="false">/?p=199</guid>
+
+					<description><![CDATA[Modern day social media is crippling our collective creativity. It has constraints we cannot see but intuitively feel. We&#8217;re allowed to post what we like within the confines of the feed and controls of the website, but are we actually free? Noam Chomsky, a leading intellectual thinking, foretold:&#160; “The smart way to keep people passive [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Modern day social media is crippling our collective creativity. It has constraints we cannot see but intuitively feel. We&#8217;re allowed to post what we like within the confines of the feed and controls of the website, but are we actually free?</p>
+
+
+
+<p>Noam Chomsky, a leading intellectual thinking, foretold:&nbsp;</p>
+
+
+
+<blockquote class="wp-block-quote"><p><em>“The smart way to keep people passive and obedient is to strictly limit the spectrum of acceptable opinion, but allow very lively debate within that spectrum&#8230;.”</em></p></blockquote>
+
+
+
+<p>Social networks have a lot of problems: from controlling data, to spreading misinformation, to prioritizing profit over users. You&#8217;ve heard these arguments before, so they won&#8217;t be covered today. Instead let&#8217;s discuss a problem gone unnoticed and unsaid: <strong>Our creative freedom is being destroyed by lack of control over our experiences on these platforms.</strong></p>
+
+
+
+<p>Have you noticed how most social content is from the here and now, an echo of the daily news? Rarely is there discourse on topics that were important weeks ago, let alone months or years ago. Our discourse is limited by these platforms and few realize it.&nbsp;</p>
+
+
+
+<p>We&#8217;re made to believe we are free to share anything and it will live and die on its own merit. You may think it&#8217;s just you, that because you posted something foreign to the weekly news cycle, people didn&#8217;t enjoy it. Some people did, some loved your content, but the masses didn&#8217;t, and they control the conversation. Stories live and die by their overall popularity, not how significant they are to individual users. </p>
+
+
+
+<p>Social media companies amplify the conversations of the day because those conversations keep the average user hooked more than your interesting, unique content did. You&#8217;re posting to the perfectly manicured garden they give you. If you attempt to introduce content unfit for the garden it will be buried. It didn&#8217;t help the garden have mass appeal, and thus didn&#8217;t belong.</p>
+
+
+
+<p>This is merely the constraints of an algorithmically determined feed. There&#8217;s also hidden constraints in the walls of these products. Why must every Facebook user have the exact same layout with the same event notifications, marketplace link perfectly positioned to draw your attention, the same endlessly scrolling feed. They chose this design because they believe it&#8217;s &#8220;optimal&#8221;, their split tests conclusively proved so. But is an averagely optimal experience really what everyone needs?</p>
+
+
+
+<p>What if instead of living in perfectly designed gardens, we could explore a social forest?</p>
+
+
+
+<p>Social media is like <a href="https://keukenhof.nl/en/" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Keukenhof</a>, a famously beautiful garden in the Netherlands, with flowers in full bloom, trees perfectly trimmed, and not a snail in sight.</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh5.googleusercontent.com/N7cgpnqW8tWe8Zl2gDfWah7Uz1DqC_-EH44S8dE1yGnfSGsBisJ_N-4HO8F6Ulnm9PYuDJMGy0Y-WjN-ZCyQ8k7zlmMJErTR5sevv1GjpATiYV2vUVK85NyOriPAtvaLyli0o9il" alt=""/></figure>
+
+
+
+<p>What if social media was a forest instead? A place where we could see the mushrooms, bugs feasting on the decaying trees, moss growing along the riverbank. It wouldn&#8217;t be as safe and sanitary, but it&#8217;s much more fascinating and diverse.&nbsp;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh5.googleusercontent.com/MU4sNYoEeF40POXhp5QTIyddX2SaHz6dU9PMgPduUYBAXQHBRF2g7zbWAQO0CJfWQau_XnWcPuwPstObF0VISUdbdrbHVB4rBpJCeotHlcWj_dHAaG24HVK1zcWjm-0F53sfelQe" alt=""/><figcaption>Photo by <a href="https://unsplash.com/@the_bracketeer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Hendrik Cornelissen</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Unsplash</a></figcaption></figure>
+
+
+
+<p>Keukenhof is nice, but do you really want to live there forever? Is it the only place you&#8217;d ever want to visit?&nbsp;</p>
+
+
+
+<p>What if we didn&#8217;t have just one online forest to explore, but many different environments, from forests, to mountains, to swampy marshes, each with their own unique experiences and benefits.</p>
+
+
+
+<p>Prior to Social Media the web had diversity, do you remember the GeoCities time? Links could be anywhere, fonts could be anything, websites had endlessly repeating GIF backgrounds. The web was a wonderland of strange and beautiful things to explore. People posted their thoughts on any design they liked and if you wanted to put yourself out there you could do it in any way you desire. </p>
+
+
+
+<p>What if we weren&#8217;t forced into using the same social client? What if we weren&#8217;t forced to use their feed sorting algorithm? What if we could use any one of hundreds of open source feed sorting algorithms, or make our own, and still participate in the same network?</p>
+
+
+
+<p>This is the promise of Open Source, Decentralized Social networks. They&#8217;re social networks anyone can take part in, and choose how they experience the network. The underlying protocol is the same, but the clients everyone uses are different.&nbsp;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh5.googleusercontent.com/SdsT4iAHUC88JMkLtLhxMXCiITv7t4JAeMPagNJBJJKGLUxtGWsVRYwkVbnI8MsJN8QwraC3oEHtVemsTZDbdTIPYs7PEGNHltMKFZva5Rj1Dqqvc0sMi94UJR-3C_6gk872X3XL" alt=""/><figcaption>Desktop clients: <a href="https://github.com/ssbc/patchwork" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Patchwork</a> and <a href="https://github.com/fraction/oasis" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Oasis</a>. Mobile clients: <a href="https://planetary.social/" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Planetary</a> and <a href="https://www.manyver.se/" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Manyverse</a></figcaption></figure>
+
+
+
+<p>These clients are all real and usable today, and all connect to the same peer to peer network. You and your friends could be using 4 totally different apps but still talk to each other, post images and organize meetups together through them. They&#8217;re not as feature rich as Facebook or Instagram but with time they can get there. </p>
+
+
+
+<p>There are a number of people writing about this issue, tackling it from different angles. They all point to the same conclusion: If we want a bright social future, we must free it from centralized corporate control.</p>
+
+
+
+<p>Why does this make sense now? Because we have the technology to make it possible. When Facebook began in 2005 computers were less than 1/100th as powerful as today&#8217;s. It wasn&#8217;t possible to build a decentralized social network because someone needed to pay for the servers to hold and distribute the information everyone was sharing. As computing power doubles roughly every two years (and has been doing so for the last 75 years) we now have more than enough space and power to build networks that run on our personal devices.</p>
+
+
+
+<p>Through a series of articles first analyzing the problem, why the answer must be open source and decentralized, and finally the solution. I&#8217;ll walk you through explaining why this is such an important topic and why it must be done to unlock maximum creativity from humanity.</p>
+
+
+
+<h2><a href="https://staltz.com/reinvent-the-social-web.html" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Reinvent The Social Web</a></h2>
+
+
+
+<p>André Staltz is a passionate believer in a new decentralized social web, and he eloquently lays out what&#8217;s wrong with existing social media.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>In the beginning, the web was created as the hypertext — a graph where the documents are the nodes and the hyperlinks are the edges. It made a lot of sense for academics, at a time when the desktop had the best user experience. Writing HTML was not that bad for academics already comfortable with markup like LaTeX for papers.</p><p>The social web emphasizes posts, which can be short messages or pictures. They don’t need to be authored in markup like HTML.</p><p>The user experience is comfortable for everyone. The UX of content creation is important, because it means the social web grows faster than hypertext, and eventually will outgrow the web itself. I believe we may have passed this point already.</p></blockquote>
+
+
+
+<p>Sounds great right? Easier content creation means more content from everyone, we can all participate instead of just a handful of designers.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>We could embrace this new era and just forget hypertext. But the problem is that the social web is made out of a handful of closed platforms, whereas the web is open.</p><p>On the closed social web, there are many problems. We lack freedom, innovation, trust, respect, and transparency.</p><p>Innovation on these platforms is dying. Third party apps are taken down, and there is little diversity in the UI choices. We become passive consumers of UX decisions by the tech giants, and we don’t have any control over newsfeed algorithms.</p><p>We’ve gotten used to closed platforms making decisions for us, but there’s a huge opportunity for innovation that’s unlocked in an open protocol.</p></blockquote>
+
+
+
+<p>These platforms provide a simple way to create content, but only if you stay inside their perfectly manicured garden.</p>
+
+
+
+<p>André has a solution to this problem,&nbsp;</p>
+
+
+
+<blockquote class="wp-block-quote"><p>So, what if we take this idea that works, and reinvent it with a coherent and open protocol?</p><p><a href="https://scuttlebutt.nz/" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Scuttlebutt</a> is a peer-to-peer open protocol for social networks. It was created in 2014 by Dominic Tarr and other NodeJS hackers. I joined in 2016.</p></blockquote>
+
+
+
+<p>We&#8217;ll touch on Scuttlebutt more soon in this article, if you want to know more about it, check out his post.&nbsp;</p>
+
+
+
+<h2><a href="https://blog.neocities.org/blog/2013/05/28/making-the-web-fun-again.html" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Neocities, Making the Web fun again</a></h2>
+
+
+
+<p>Now we get to the core problem of blandness in social networks.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>When Yahoo shut down GeoCities, they did much more than delete a bunch of obnoxious dancing baby GIFs and Limp Bizkit MIDI files. <strong>They deleted the ability for people (both old and new to the web) to easily create web sites, and be in complete control of the content and presentation they provide to their audience.</strong></p><p>Sure, some of the old sites weren’t “great”. But they were fun, and quirky, and interesting. We used to call it “surfing” the web, and that was actually a good way to describe it. There was a certain adventure to the activity &#8211; a fun and excitement in exploring the unknown.</p><p>Go to a Facebook profile, and ponder what we have now. Instead of having adventures into the great unknowns of the web, we instead now spend most of our time on social networks: boring, suburban gated communities, where everybody’s “profile” looks exactly the same, and presents exactly the same content, in the same arrangement. Rarely do we create things on these networks; Instead, we consume, and report on our consumption. <strong>The uniformity and blandness rival something out of a Soviet bloc residential apartments corridor.</strong></p></blockquote>
+
+
+
+<p>The other core problem of social media is most people have their real identities tied to the network, so you can&#8217;t talk about anything too taboo or provocative, as he continues:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>And when you don’t have to attach your real identity to everything you do, it still doesn’t matter how old you are, what you look like, or what your social class is</p></blockquote>
+
+
+
+<p>Neocities is somewhat solving this creativity problem, and I love that it exists, but it&#8217;s not a social media platform.</p>
+
+
+
+<h2><a href="https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Protocols, Not Platforms: A Technological Approach to Free Speech</a></h2>
+
+
+
+<p>One of the core problems of social networks is they&#8217;re all owned by massive corporations that must return profits to shareholders. Even if alternative networks are created they will need to generate a profit to survive, which causes them to focus on the keukenhof experience, instead of letting the forest grow unwieldy.&nbsp;</p>
+
+
+
+<p>These corporations have all the incentives to make their social network closed off to outside competition, lest they lose users to them. As they grow they become more insular to protect what they&#8217;ve built.</p>
+
+
+
+<p>The solution is not another social network with some additional customization, the solution is a decentralized protocol that hundreds of social networks and social clients can connect to, and use to interact with each other. This gives everyone the freedom to choose the platform they want to be a part of, to choose the UI they love. If any of these platforms turn evil you can easily take your data and leave to a better platform, without having to bring all your friends with you.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Moving to a world where protocols and not proprietary platforms dominate would solve many issues currently facing the internet today. Rather than relying on a few giant platforms to police speech online, there could be widespread competition, in which anyone could design their own interfaces, filters, and additional services, allowing whichever ones work best to succeed, without having to resort to outright censorship for certain voices.</p><p>At the same time, it would likely lead to new, more innovative features as well as better end-user control over their own data. Finally, it could help usher in a series of new business models that don’t focus exclusively on monetizing user data.</p></blockquote>
+
+
+
+<p>He continues, the best analogy for how social networks should function is like email. We can all use different email providers and yet still communicate with each other. Why don&#8217;t social protocols work in the same way?</p>
+
+
+
+<blockquote class="wp-block-quote"><p>However, because of these open standards, there is a great deal of flexibility. A user can use a non-Gmail email address within the Gmail interface. Or he or she can use a Gmail account with an entirely different client, such as Microsoft Outlook or Apple Mail.</p><p>On top of that, it’s possible to create new interfaces on top of Gmail itself, such as with a Chrome extension.</p><p>This setup has many advantages for the end user. Even if one platform—like Gmail—becomes much more popular in the marketplace, the costs of switching are much lower. If a user does not like how Gmail handles certain features or is concerned about Google’s privacy practices, switching to a different platform is much easier, and the user does not lose access to all of his or her old contacts or the ability to email anyone else (even those contacts that remain Gmail users).</p><p>Notice that this flexibility serves as a strong incentive on Google’s part to make sure that Gmail treats its users well; Google is less likely to take actions that might lead to a rapid exodus. This is different than a fully proprietary platform such as Facebook or Twitter, where leaving those platforms means that you no longer are in communication in the same way with the people there and can no longer easily access their content and communications. With a system like Gmail, it is easy to export contacts and even legacy emails and simply begin again with a different service, without losing the ability to remain in contact with anyone.</p></blockquote>
+
+
+
+<p>One key insight is with a diversity of platforms to choose from, and little cost from switching, as all your contacts come with you, platforms are incentivized to do good by their users lest they leave the site.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>In addition, it opens up the competitive environment much more. Even as Gmail is an especially popular email service, others are able to build up significant email services—like Outlook.com or Yahoo Mail—or to create successful startup email services that target different markets and niches—like Zohomail or Protonmail.</p><p>Imagine a competing interface for Twitter that would be pre-set (and constantly updated) to moderate out content from trollish accounts, and to better promote more thoughtful, thought-provoking stories, rather than traditional clickbait hot takes. Or an interface could provide a better layout for conversations. Or for news reading.</p><p>A protocol system, by its very nature, would likely lead to much more innovation in this space, in part by allowing anyone to create an interface for accessing this content. That level of competition would almost certainly lead to various attempts to innovate, improving all aspects of the service. Competing services could offer a better filter, a better interface, better or different features, and much more.</p></blockquote>
+
+
+
+<h2><a href="https://sriramk.com/bluesky-early" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">BlueSky Early Thoughts</a></h2>
+
+
+
+<p><a href="https://twitter.com/jack/status/1204766078468911106" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">Jack Dorsey at Twitter recently announced BlueSky</a> the formation of a new team to build a decentralized social media protocol. Jack has realized this is the future of social media, and it would be beneficial to Twitter because they no longer need to be bastions of speech, they can kick undesirable users off their platform but not off the network, similar to email.</p>
+
+
+
+<p>This is a great step in the right direction of where social media should go to unlock human creativity.</p>
+
+
+
+<p>Sriram talks about the existing problem with social media platforms:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Imagine if Gmail was the only email client ever developed and SMTP+IMAP had never existed. Gmail could have defined all things email</p><p>But that is not where we find ourselves since SMTP <em>does</em> exist. These are open, documented standards which have evolved over years of open development.</p><p>Now, compare this with the current state of any social media product. You get a full “stack” &#8211; some of the most complex, intricate systems ever built in tech &#8211; which combines everything from relevance algorithms, content policies, verification policies, identity, incentive structures among many other things.</p></blockquote>
+
+
+
+<p>So how can we build a better social network &#8211; through BlueSky&#8217;s proposal.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Alternate ranking models: every social platform uses a complex feed ranking algorithm optimizing for a combination of factors &#8211; community interaction, engagement, likelihood of spending time, etc. However as a customer you don’t get a choice of using different models. Imagine opening up any social platform and switching to a ranking that optimizes to show you only insightful content &#8211; or joyful content &#8211; or the most recent content. Or one that ranks content from people who typically don’t get attention. Or one that just shows you Keanu Reeves content. You can imagine a marketplace of “ranking models” and you get to plug and play any one.</p></blockquote>
+
+
+
+<p>Being able to change your ranking algorithm would be game changing. Imagine if you could choose to only see content from your best friends, only see the best content in the last year instead of the last 2 days, only see stories that received positive feedback, ignore all political content etc. There are so many different ways to make our feed full of exactly the posts we want to see.&nbsp;</p>
+
+
+
+<p>This would lead to much more overall happiness, when we know we&#8217;re in control of what we read, instead of some AI algorithm optimized for engagement.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Alternate verification policies</p><p>Alternate content moderation policies</p></blockquote>
+
+
+
+<p>Both extremely useful features to a social network, we can have many social network providers do verification, spam checks, block harassment etc, but all of the platforms can talk to one another and you can choose the community that suits you while still being able to connect and interact with those in other communities.</p>
+
+
+
+<h2><a href="https://www.theatlantic.com/technology/archive/2017/05/meet-the-counterantidisintermediationists/527553/" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">The Nomad Who’s Exploding the Internet Into Pieces</a></h2>
+
+
+
+<p>Now for my favorite solution to decentralizing social media, a protocol known as Scuttlebutt. It&#8217;s free, open, and everything you&#8217;d hope for in a social protocol. There are already a number of clients running on Scuttlebutt which can talk to each other, but first let&#8217;s see what the man behind the machine has to say:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>For Tarr, the philosophical underpinning of Secure Scuttlebutt is social relativism. Because Scuttlebutt is distributed, each user decides what to do with their network and how to do it. This means that the users of SSB-driven software must consciously deliberate about whom they want to interact with “online,” and where, and why.</p><p>Commercial online services, by contrast, regulate user behavior with software and legal controls. Even the way users are identified on a service like Twitter, Instagram, or WhatsApp must conform with the service provider’s wishes. A username is a globally unique ID. Otherwise, how would the service and the users tell one individual from another?</p><p>Scuttlebutt doesn’t assume a replacement circumstance; instead it opens the door to many alternatives—the libertarians can have their markets, and the leftists can have their coops, and others can have anything in-between.</p></blockquote>
+
+
+
+<p>By building a network with many clients, many platforms and many possible ways to experience your social world, it doesn&#8217;t matter what your desire, you can find the perfect platform and group for you. Or if it doesn&#8217;t exist, create your own.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Centralized services are easy to use, but they offer one-size-fits all solutions. Why should a social network for a school or a family or a neighborhood work the same way as one meant for corporate advertisers, or governmental officials, or journalists? Even if Scuttlebutt never catches on, it shows that the future online might be far more customized and diverse than the present. And not just in its appearance, like MySpace or GeoCities. But also in its functionality, its means of access, and its membership.</p></blockquote>
+
+
+
+<h2><a href="https://jeremydormitzer.com/blog/what-is-activitypub.html" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">What is ActivityPub, and how will it change the internet?</a></h2>
+
+
+
+<p>Another new decentralized social protocol I&#8217;m fascinated by but haven&#8217;t used much yet is ActivityPub. The biggest known social network using this protocol is Mastodon. Jeremy wrote this excellent piece explaining why it&#8217;s so exciting:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>There’s a new social network in town. It’s called<a href="https://joinmastodon.org/" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener"> Mastodon</a>. You might have even heard of it. On the surface, Mastodon feels a lot like Twitter: you post “toots” up to 500 characters; you follow other users who say interesting things; you can favorite a toot or re-post it to your own followers. But Mastodon is different from Twitter in some fundamental ways. </p><p>Mastodon isn’t controlled by a single corporation. Anyone can operate a Mastodon server, and users on any server can interact with users on any other Mastodon server.</p><p>This decentralized model is called federation. Email is a good analogy here: I can have a Gmail account and you can have an Outlook account, but we can still send mail to each other. In the same way, I can have an account on<a href="https://mastodon.technology/invite/JguyVqcL" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener"> mastodon.technology</a>, and you can have an account on<a href="https://mastodon.social/" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener"> mastodon.social</a>, but we can still follow each other, like and re-post each other’s toots, and @mention each other. Just like Gmail servers know how to talk to Outlook servers, Mastodon servers know how to talk to other Mastodon servers (if you hear people talking about a Mastodon “instance”, they mean server). </p></blockquote>
+
+
+
+<p>This federation is done via a new protocol called ActivityPub, which is an open source standard that different social networks and servers within a social network can use to talk to each other.&nbsp;</p>
+
+
+
+<blockquote class="wp-block-quote"><p>ActivityPub is a social networking protocol. Think of it as a language that describes social networks: the nouns are users and posts, and the verbs are like, follow, share, create… ActivityPub gives applications a shared vocabulary that they can use to communicate with each other. If a server implements ActivityPub, it can publish posts that any other server that implements ActivityPub knows how to share, like and reply to. It can also share, like, or reply to posts from other servers that speak ActivityPub on behalf of its users.</p><p>ActivityPub is much bigger than just Mastodon, though. It’s a language that any application can implement. For example, there’s a YouTube clone called<a href="https://joinpeertube.org/en/faq/" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener"> PeerTube</a> that also implements ActivityPub. Because it speaks the same language as Mastodon, a Mastodon user can follow a PeerTube user. If the PeerTube user posts a new video, it will show up in the Mastodon user’s feed. The Mastodon user can comment on the PeerTube video directly from Mastodon. Think about that for a second. Any app that implements ActivityPub becomes part of a massive social network, one that conserves user choice and tears down walled gardens. </p></blockquote>
+
+
+
+<p>This protocol could be amazing! Tying together various sharing sites, social networks and content platforms into one cohesive social web.&nbsp;</p>
+
+
+
+<blockquote class="wp-block-quote"><p>“Network effects” leaves kind of a dirty taste in my mouth. It’s usually used as a euphemism for “vendor lock-in”; the reason that Facebook became such a giant was that everyone needed to be on Facebook to participate in Facebook’s network. However, ActivityPub flips this equation on its head. As more platforms become ActivityPub compliant, it becomes more valuable for platforms implement ActivityPub: more apps means more users on the federated network, more posts to read and share, and more choice for users. This network effect discourages vendor lock-in. In the end, the users win.</p></blockquote>
+
+
+
+<p>This is a powerful argument for why ActivityPub could eventually be the social standard online that even the current centralized platforms have to implement to keep up. I&#8217;m super excited to see how it develops and see new platforms adopt the protocol, making it continually more useful over time.&nbsp;</p>
+
+
+
+<p><strong>Fixing the closed social web</strong></p>
+
+
+
+<p>Now that you understand the benefits of an open web, you&#8217;ll start to realize how dreary and restrictive the existing web is. Over time with enough fans, programmers and funding we can make this new decentralized web just as feature rich and populated as the existing social web. Then we&#8217;ll have a much brighter, more free social future for all of humanity now and into the future.&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/08/social-media-is-restricting-our-creative-freedom/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
